@@ -1,5 +1,7 @@
+<<<<<<< HEAD
 *.map
 *.log
 .npm
 node_modules
 dist
+npm-debug.log*
