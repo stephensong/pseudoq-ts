@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'entypo';
+  src: url('../fonts/entypo.woff') format('woff');
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pseudoq {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mnu {
+  width:100px; 
+  display: inline-block;
+  vertical-align: top;
+  padding:6px;
+
+}
+.mnu button { width:100%;}
+.go-tog {
+  display:block;
+  float: left;
+  width:36px;
+  height:36px;
+  text-align:center;  
+  line-height:1;
+  padding:6px;
+  border-style:solid;
+}
+.pkr-cell {
+  display:block;
+  float: left;
+  width:30px;
+  height:36px;
+  text-align:center;  
+  font-weight: bold;
+  line-height:1;
+  padding:6px;
+  border-style:solid;
+  border-width:2px;
+}
+.cell-border {
+  display:block;
+  float: left;
+  width:36px;
+  height:36px;
+  padding:6px;
+}
+.cell {
+  display:block;
+  position:relative;
+  top:3px;
+  left:2px;
+  width:21px;
+  height:21px;
+  float: left;
+  padding:0px;
+  margin:0px;
+}
+
+.selectedPoss {
+  text-align:center;  
+  font-weight: bold;
+}
+
+.posscell {
+  display:block;
+  width:7px;
+  height:7px;
+  float:left; 
+  text-align:center;  
+  /*line-height:0.5;*/
+  font-size:45%;
+  background-color:transparent;
+}
+
+.pkr-cell:hover {
+  cursor:default;
+}
+

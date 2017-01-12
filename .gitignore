@@ -1,0 +1,5 @@
+*.map
+*.log
+.npm
+node_modules
+dist
